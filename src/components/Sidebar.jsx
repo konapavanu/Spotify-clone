@@ -2,7 +2,7 @@ import React from 'react'
 import {assets} from '../assets/assets'
 import { useNavigate } from 'react-router-dom'
 
-const sidebar = () => {
+const Sidebar = () => {
 
     const navigate=useNavigate();
   return (
@@ -44,4 +44,4 @@ const sidebar = () => {
   )
 }
 
-export default sidebar
+export default Sidebar
